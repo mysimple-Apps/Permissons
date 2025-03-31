@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Permissons.MainPage"
+             Title="">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="5,0"
+            Spacing="10">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="30"
+                Aspect="AspectFit"
+             />
+
+           
+              <toolkit:CameraView x:Name="myCamera" IsVisible="false" />
+            
+
+            <Label
+                Text="Permissons/Berechtigungen"
+                FontSize="Medium" 
+                HorizontalOptions="Center"/>
+
+
+
+            <Button
+                Text="Camera" 
+                Clicked="OnCameraClicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+             Text="Standort/GPS" 
+             Clicked="OnGPSClicked"
+             HorizontalOptions="Fill" />
+
+            <Button
+              Text="Send SMS" 
+              Clicked="OnSMSClicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              Text="Anrufen Call" 
+              Clicked="OnPhoneClicked"
+              HorizontalOptions="Fill" />
+
+            <Button
+              Text="Datei auswählen" 
+              Clicked="OnFileOpenClicked"
+              HorizontalOptions="Fill" />
+            
+            <Button
+              Text="Datei speichern" 
+              Clicked="OnFileSaveClicked"
+              HorizontalOptions="Fill" />
+
+
+            <Button
+                Text="Send Email" 
+                Clicked="OnEmailClicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+                Text="Sensor off" 
+                x:Name="sensor"
+                Clicked="OnSensorClicked"
+                HorizontalOptions="Fill" />
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
