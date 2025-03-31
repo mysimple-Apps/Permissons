@@ -4,4 +4,4 @@ In modernen mobilen Apps spielen Berechtigungen eine zentrale Rolle. Fast jede A
 
 Sowohl Android als auch iOS (und andere Plattformen) schützen kritische Ressourcen mit einem Berechtigungssystem. Der Nutzer muss bestimmten Funktionen explizit zustimmen. .NET MAUI bietet mit dem Paket Microsoft.Maui.Essentials bzw. Permissions eine plattformübergreifende API, um Berechtigungen zu prüfen und anzufordern.
 
-![Maui Steuerelemente](https://www.mssecure.de/mauiblog/beitraege/Permissions/apppermissions.jpg)
+![Maui Steuerelemente](https://www.mssecure.de/mauiblog/beitraege/Permissons/apppermissions.jpg)
